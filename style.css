@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.logo1{
+    width: 220px;
+}
+
+body,
+p,
+button,
+input,
+a{
+    font-family: 'Open Sans', sans-serif;
+}
+.h1,
+.h2,
+.h3,
+.h4{
+    font-family: 'Poppins', sans-serif;
+}
+
+.hhh{
+    padding: 40px;
+}
+
+.h4{
+    letter-spacing: 2px;
+}
+
+.icons{
+    font-size: 28px;
+    word-spacing: 5px;
+}
+.icon{
+    color: white;
+}
+.icon:hover{
+    color: rgb(209, 134, 209);
+}
+
+.btn1{
+    color: rgb(186, 97, 186);
+    border-color: rgb(186, 97, 186);
+    animation: logo 500ms ease-out;
+}
+.btn1:hover{
+    color: violet;
+    border-color: violet;
+    background-color: white;
+}
+
+.btn2{
+    font-weight: 700;
+    background-color: rgb(223, 141, 223);
+    border-color: rgb(206, 139, 206);
+}
+.btn2:hover{
+    background-color: rgba(223, 141, 223, 0.734);
+    border-color: rgba(206, 139, 206, 0.651);
+}
+
+.logo1{
+    animation: logo 500ms ease-out;
+}
+@keyframes logo {
+    0%{
+        transform: translateY(-100%);
+        opacity: 50%;
+        scale: 50%;
+        
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+.to-top{
+    background-color: white;
+    position: fixed;
+    bottom: 20px;
+    right: 35px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    opacity: 0.2; 
+    transition: all .4s;
+}
+.to-top:hover {
+    bottom: 32px;
+    opacity: 1;
+}
+
+.bottom{
+    color: white;
+    font-size: 14px;
+}
